@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #ccc;
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */
