@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,121 @@
 }
 
 html {
-  background-color: #ccc;
+  font-family: 'Roboto', sans-serif;
   font-size: 10px;
+}
+
+.heading__one {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #273c75;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.heading__two {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #273c75;
+  text-align: center;
+}
+
+.settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.8rem 0.6rem;
+  width: 90%;
+  min-height: 50vh;
+  background-color: #f5f6fa;
+  border-radius: 0.6rem;
+  -webkit-box-shadow: 0 0 15px #2f3640;
+          box-shadow: 0 0 15px #2f3640;
+}
+
+.settings__left {
+  width: 50%;
+  padding: 0.8rem 0.6rem;
+  border-right: 0.2rem solid #4cd137;
+}
+
+.settings__right {
+  width: 50%;
+  padding: 0.8rem 0.6rem;
+}
+
+.settings__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding-top: 4rem;
+}
+
+.settings__rules {
+  margin-top: 5rem;
+  height: 80%;
+}
+
+.settings__list {
+  list-style: none;
+}
+
+.settings__item {
+  margin: 0.5rem 0;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.4rem;
+  color: #44bd32;
+}
+
+.btn {
+  width: 50%;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  background-color: transparent;
+  border: 0.1rem solid #2f3640;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2f3640;
+  border: 0.1rem solid #dcdde1;
+  -webkit-box-shadow: 0 0 10px #2f3640;
+          box-shadow: 0 0 10px #2f3640;
+  color: #f5f6fa;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1024px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #dcdde1;
+}
+
+.hide {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

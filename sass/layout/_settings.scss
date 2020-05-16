@@ -1,0 +1,40 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+.settings {
+  display: flex;
+  padding: 0.8rem 0.6rem;
+  width: 90%;
+  min-height: 50vh;
+  background-color: $mainWhite;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 15px $mainBlack;
+  &__left {
+    width: 50%;
+    padding: 0.8rem 0.6rem;
+    border-right: 0.2rem solid $lightGreen;
+  }
+  &__right {
+    width: 50%;
+    padding: 0.8rem 0.6rem;
+  }
+  &__btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 4rem;
+  }
+  &__rules {
+    margin-top: 5rem;
+    height: 80%;
+  }
+  &__list {
+    list-style: none;
+  }
+  &__item {
+    margin: 0.5rem 0;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.4rem;
+    color: $mainGreen;
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,SAAS,CAAC;EACR,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,IAAI;EAChB,gBAAgB,ECDP,OAAO;CDEjB",
+    "sources": [
+        "../layout/settings.scss",
+        "../abstract/_variables.scss"
+    ],
+    "names": [],
+    "file": "settings.css"
+}

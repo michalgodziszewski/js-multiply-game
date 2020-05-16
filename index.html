@@ -6,5 +6,31 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Multiply Game</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div class="settings">
+        <div class="settings__left">
+          <p class="heading__one">JS Multiply Game</p>
+          <p class="heading__two">Wybierz poziom gry</p>
+          <div class="settings__btns">
+            <button class="btn settings-btn">Easy</button>
+            <button class="btn settings-btn">Normal</button>
+            <button class="btn settings-btn">Hard</button>
+          </div>
+        </div>
+        <div class="settings__right">
+          <p class="heading__one">Zasady Gry</p>
+          <p class="heading__two">
+            Najedz na wybrany poziom by zobaczyć zasady gry
+          </p>
+          <div class="settings__rules"></div>
+        </div>
+      </div>
+      <div class="game hide">game</div>
+    </div>
+    <script src="js/Rules.js"></script>
+    <script src="js/Game.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>

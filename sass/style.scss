@@ -1,2 +1,18 @@
 @import 'base/reset';
 @import 'base/typography';
+@import './abstract/variables';
+@import './layout/settings/';
+@import './abstract/mixins';
+@import './components/buttons';
+
+.wrapper {
+  @include flex-center;
+  max-width: 1024px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: $mainGrey;
+}
+
+.hide {
+  display: none;
+}

@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap');
+@import '../abstract/variables';
 html {
-  background-color: #ccc;
-  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: $font-size;
+}
+
+.heading {
+  &__one {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: $mainBlue;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__two {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: $lightBlue;
+    text-align: center;
+  }
 }
