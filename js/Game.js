@@ -1,6 +1,15 @@
 class Game {
   constructor() {
-    this.initBtns = document.querySelectorAll('.settings-btn');
+    this.settingsContainer = document.querySelector('.settings');
+    this.gameContainer = document.querySelector('.game');
   }
-  init() {}
+  init(mode) {
+    console.log(mode);
+    this.showGameContainer();
+  }
+
+  showGameContainer() {
+    this.settingsContainer.classList.add('hide');
+    this.gameContainer.classList.remove('hide');
+  }
 }

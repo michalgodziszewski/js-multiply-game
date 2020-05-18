@@ -1,0 +1,72 @@
+@import '../abstract/variables';
+
+.game {
+  padding: 0.8rem 0.6rem;
+  width: 90%;
+  min-height: 50vh;
+  background-color: $mainWhite;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 15px $mainBlack;
+  &__numbers {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 1rem;
+    padding: 1rem 0;
+    width: 30%;
+    background-color: $mainGrey;
+    border-radius: 5px;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  &__number-one {
+    padding-right: 2rem;
+    color: darken($mainBlue, 15%);
+  }
+  &__number-two {
+    padding-left: 2rem;
+    color: darken($mainBlue, 15%);
+  }
+  &__answer {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    align-items: center;
+    p {
+      font-size: 2rem;
+      margin-right: 1rem;
+      color: $mainBlue;
+    }
+    input {
+      padding: 0.2rem 0.5rem;
+      border: 1px solid $mainGrey;
+      border-radius: 5px;
+      font-size: 2rem;
+      outline: none;
+      transition: 0.3s;
+      &:focus {
+        border: 2px solid $mainBlack;
+      }
+    }
+  }
+  &__stats {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 4rem;
+    height: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    p {
+      padding-right: 2rem;
+    }
+  }
+  &__time {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: $mainGreen;
+    span {
+      color: black;
+    }
+  }
+}

@@ -12,6 +12,7 @@ html {
 }
 
 .heading__one {
+  margin-top: 0.5rem;
   margin-bottom: 1.5rem;
   font-size: 2rem;
   color: #273c75;
@@ -80,6 +81,106 @@ html {
   padding: 0.2rem 0.4rem;
   font-size: 1.4rem;
   color: #44bd32;
+}
+
+.game {
+  padding: 0.8rem 0.6rem;
+  width: 90%;
+  min-height: 50vh;
+  background-color: #f5f6fa;
+  border-radius: 0.6rem;
+  -webkit-box-shadow: 0 0 15px #2f3640;
+          box-shadow: 0 0 15px #2f3640;
+}
+
+.game__numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem auto 1rem;
+  padding: 1rem 0;
+  width: 30%;
+  background-color: #dcdde1;
+  border-radius: 5px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.game__number-one {
+  padding-right: 2rem;
+  color: #141f3c;
+}
+
+.game__number-two {
+  padding-left: 2rem;
+  color: #141f3c;
+}
+
+.game__answer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3rem 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game__answer p {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #273c75;
+}
+
+.game__answer input {
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #dcdde1;
+  border-radius: 5px;
+  font-size: 2rem;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.game__answer input:focus {
+  border: 2px solid #2f3640;
+}
+
+.game__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 4rem;
+  height: 100%;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.game__stats p {
+  padding-right: 2rem;
+}
+
+.game__time {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #44bd32;
+}
+
+.game__time span {
+  color: black;
 }
 
 .btn {

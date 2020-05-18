@@ -10,3 +10,7 @@ initBtns.forEach((btn) =>
 );
 
 const game = new Game();
+
+initBtns.forEach((btn) =>
+  btn.addEventListener('click', () => game.init(btn.textContent.toLowerCase()))
+);

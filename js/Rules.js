@@ -29,7 +29,7 @@ class Rules {
           '- limit czasu 5 sekund',
           '- 10 pkt za odpowiedź, ale za każdą  sekundę zwłoki zmniejszamy liczbę możliwych punktów o 2.',
           '- każda błędna odpowiedź odejmuje 1/2 (w zaokrągleniu) punktów możliwych do uzyskania',
-          '- s20 rund.',
+          '- 20 rund.',
         ],
       },
     ];

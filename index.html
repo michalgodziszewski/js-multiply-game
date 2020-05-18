@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="settings">
+      <div class="settings hide">
         <div class="settings__left">
           <p class="heading__one">JS Multiply Game</p>
           <p class="heading__two">Wybierz poziom gry</p>
@@ -26,9 +26,37 @@
           <div class="settings__rules"></div>
         </div>
       </div>
-      <div class="game hide">game</div>
+      <div class="game">
+        <p class="heading__one">
+          JS Multiply Game - poziom: <span class="gameMode">(EASY)</span>
+        </p>
+        <p class="heading__two">
+          Pozostało <span class="gameRounds">10</span> rund do końca gry
+        </p>
+        <p class="game__time">
+          Czas na odpowiedz: <span class="gameTime">10</span> sekund
+        </p>
+        <div class="game__numbers">
+          <p class="game__number-one">5</p>
+          <span> * </span>
+          <p class="game__number-two">5</p>
+        </div>
+        <div class="game__answer">
+          <p>Podaj wynik</p>
+          <input type="numebr" placeholder="Odpowiedz..." />
+        </div>
+        <p class="heading__one">Aktualne statystyki gry</p>
+        <div class="game__stats">
+          <p class="game__rounds">Runda: <span class="gameRounds">1</span></p>
+          <p class="game__wins">Poprawne: <span class="gameWins">0</span></p>
+          <p class="game__losses">
+            Niepoprawne: <span class="gameLosses">2</span>
+          </p>
+        </div>
+      </div>
     </div>
     <script src="js/Rules.js"></script>
+    <script src="js/Settings.js"></script>
     <script src="js/Game.js"></script>
 
     <script src="js/main.js"></script>
