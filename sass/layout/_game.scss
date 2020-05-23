@@ -56,7 +56,16 @@
     height: 100%;
     font-weight: bold;
     font-size: 1.5rem;
+    &-block {
+      flex-direction: column;
+      margin-bottom: 60px;
+    }
     p {
+      &.stats {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
       padding-right: 2rem;
     }
   }

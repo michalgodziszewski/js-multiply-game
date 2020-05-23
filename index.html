@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="settings hide">
+      <div class="settings">
         <div class="settings__left">
           <p class="heading__one">JS Multiply Game</p>
           <p class="heading__two">Wybierz poziom gry</p>
@@ -26,7 +26,7 @@
           <div class="settings__rules"></div>
         </div>
       </div>
-      <div class="game">
+      <div class="game hide">
         <p class="heading__one">
           JS Multiply Game - poziom: <span class="gameMode">(EASY)</span>
         </p>
@@ -43,20 +43,45 @@
         </div>
         <div class="game__answer">
           <p>Podaj wynik</p>
-          <input type="numebr" placeholder="Odpowiedz..." />
+          <form>
+            <input type="numebr" placeholder="Odpowiedz..." />
+          </form>
         </div>
         <p class="heading__one">Aktualne statystyki gry</p>
         <div class="game__stats">
-          <p class="game__rounds">Runda: <span class="gameRounds">1</span></p>
+          <p class="game__rounds">Runda: <span class="gameRound">1</span></p>
           <p class="game__wins">Poprawne: <span class="gameWins">0</span></p>
           <p class="game__losses">
             Niepoprawne: <span class="gameLosses">2</span>
           </p>
+          <p class="game__points">Punkty: <span class="gamePoints">5</span></p>
         </div>
+      </div>
+      <div class="result hide">
+        <p class="heading__one">
+          Statystyka Gry
+        </p>
+        <div class="game__stats game__stats-block">
+          <p class="game__rounds stats">
+            Rundy: <span class="gameRoundFinal">1</span>
+          </p>
+          <p class="game__wins stats">
+            Poprawne: <span class="gameWinsFinal">0</span>
+          </p>
+          <p class="game__losses stats">
+            Niepoprawne: <span class="gameLossesFinal">2</span>
+          </p>
+          <p class="game__points stats">
+            Punkty: <span class="gamePointsFinal">5</span>
+          </p>
+        </div>
+        <button class="btn btn-blue play">Zagraj ponownie</button>
       </div>
     </div>
     <script src="js/Rules.js"></script>
     <script src="js/Settings.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Rand.js"></script>
     <script src="js/Game.js"></script>
 
     <script src="js/main.js"></script>

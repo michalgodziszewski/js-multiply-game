@@ -1,0 +1,13 @@
+@import '../abstract/variables';
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 0.6rem;
+  width: 90%;
+  min-height: 50vh;
+  background-color: $mainWhite;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 15px $mainBlack;
+}

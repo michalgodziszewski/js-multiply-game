@@ -21,4 +21,8 @@ class Settings {
       },
     ];
   }
+
+  getModeSettings(mode) {
+    return this.settings.filter((setting) => setting.mode == mode);
+  }
 }

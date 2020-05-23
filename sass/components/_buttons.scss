@@ -1,7 +1,7 @@
 @import '../abstract/variables';
 
 .btn {
-  width: 50%;
+  width: 30%;
   margin: 1.5rem 0;
   padding: 1rem 0;
   background-color: transparent;
@@ -12,6 +12,10 @@
   text-transform: uppercase;
   transition: 0.3s;
   cursor: pointer;
+  &-blue {
+    background-color: $mainBlue;
+    color: $mainWhite;
+  }
   &:hover {
     background-color: $mainBlack;
     border: 0.1rem solid $mainGrey;

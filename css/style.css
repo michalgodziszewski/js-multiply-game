@@ -168,8 +168,26 @@ html {
   font-size: 1.5rem;
 }
 
+.game__stats-block {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 60px;
+}
+
 .game__stats p {
   padding-right: 2rem;
+}
+
+.game__stats p.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .game__time {
@@ -183,8 +201,31 @@ html {
   color: black;
 }
 
+.result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.8rem 0.6rem;
+  width: 90%;
+  min-height: 50vh;
+  background-color: #f5f6fa;
+  border-radius: 0.6rem;
+  -webkit-box-shadow: 0 0 15px #2f3640;
+          box-shadow: 0 0 15px #2f3640;
+}
+
 .btn {
-  width: 50%;
+  width: 30%;
   margin: 1.5rem 0;
   padding: 1rem 0;
   background-color: transparent;
@@ -196,6 +237,11 @@ html {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.btn-blue {
+  background-color: #273c75;
+  color: #f5f6fa;
 }
 
 .btn:hover {
